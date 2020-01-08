@@ -1,1 +1,1 @@
-web: gunicorn hospice.wsgi --log-file
+web: gunicorn hospice.wsgi --log-file -
