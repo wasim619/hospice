@@ -74,17 +74,31 @@ WSGI_APPLICATION = 'hospice.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'hospice',
+#         'USER': 'root',
+#         'PASSWORD': '',
+#         'HOST': 'localhost',
+#         'PORT': '3306'
+
+#     }
+# }
+
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'hospice',
-        'USER': 'root',
-        'PASSWORD': '',
-        'HOST': 'localhost',
-        'PORT': '3306'
+        'NAME': 'heroku_5b32e617a317b58',
+        'USER': 'b95c6593b9dfa8',
+        'PASSWORD': '774a38e8',
+        'HOST': 'us-cdbr-iron-east-05.cleardb.net',
+        # 'PORT': '3306'
 
     }
 }
+
 
 
 # Password validation
