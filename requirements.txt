@@ -7,7 +7,7 @@ joblib==0.14.1
 mccabe==0.6.1
 mysql-connector==2.2.9
 mysqlclient==1.4.6
-numpy==1.18.0
+numpy==1.22.0
 pandas==0.25.3
 pickle-mixin==1.0.2
 pycodestyle==2.5.0
